@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css">
+    <title>Maquetación</title>
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="nav-bar">
+                <div class="nav-image">
+                    <img class="img-logo" src="assets/img/logo.png">
+
+                    <div class="menu-mobile">
+                        <img src="assets/img/barras.svg" />
+
+                    </div>
+                </div>
+
+                <nav class="navegacion">
+
+                    <a href="index.html">Inicio</a>
+                    <a href="#">Nosotros</a>
+                    <a href="#">Servicios</a>
+                    <a href="contacto.html">Contactos</a>
+
+
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="contenedor">
+        <h2 style="margin:10px">Contáctenos</h2>
+        <form class="formulario">
+            <fieldset>
+                <legend>
+                    Información personal
+                </legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" placeholder="Ingrese el nombre" id="nombre"/>
+
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Ingrese el email" id="email"/>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" placeholder="Ingrese el teléfono" id="telefono"/>
+
+                <textarea id="mensaje"></textarea>
+            </fieldset>
+
+            <input class="boton" type="submit" value="Enviar"/>
+        </form>
+    </main>
+    <footer class="footer">
+        <div class="contenedor">
+            <p>Todos los derechos reservados - &copy;Alex Sullon</p>
+        </div>
+    </footer>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/contacto.js"></script>
+</body>
+</html>
+
